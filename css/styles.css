@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-    align-items: left;
+    align-items: center;
     background: #333;
     display: flex;
     flex-direction: column;
@@ -72,13 +72,13 @@ footer {
     color: #fff;
     font-size: 0.9;
     padding: 1em;
-    text-align: left;
+    text-align: right;
 }
 
 @media (min-width: 600px) {
   nav {
         flex-direction: row;
-        justify-content: center;
+        justify-content: right;
   }
 
   nav a {
@@ -103,7 +103,7 @@ footer {
   main {
     align-items: flex-start;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     padding: 2em;
   }
 
