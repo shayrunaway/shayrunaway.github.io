@@ -22,6 +22,10 @@ body {
     padding: 0;
 }
 
+a {
+    color: #b89654;
+}
+
 /* Navigation Styling */
 
 nav {
