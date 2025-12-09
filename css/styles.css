@@ -1,5 +1,7 @@
 /* Shay Hart; December 9th, 2025; Final Resume Project */
 
+/* Body Styling */
+
 body {
     background-color: #fafafa;
     color: #333333;
@@ -13,6 +15,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Navigation Styling */
 
 nav {
     align-items: center;
@@ -32,6 +36,8 @@ nav a:hover {
     color: #b89654;
 }
 
+/* Header Styling */
+
 header {
     background: #b89654;
     padding: 1.5em 1em;
@@ -47,6 +53,8 @@ h2 {
     margin-top: 0.5em;
     font-size: 1.4rem;
 }
+
+/*Main Styling */
 
 main {
     flex: 1;
@@ -70,6 +78,8 @@ p {
     font-size: 1rem;
     margin: 0.8em 0;
 }
+
+/* webprojects.html Styling */
 
 .projects-grid {
     display: grid;
@@ -96,14 +106,18 @@ p {
   }
   
 
+/* Footer Styling */
+
 footer {
     background: #333333;
     color: #ffffff;
-    font-size: 0.9;
+    font-size: 0.9rem;
     margin-top: auto;
     padding: 1em;
     text-align: right;
 }
+
+/* Tablet Breakpoint */
 
 @media (min-width: 600px) {
   nav {
@@ -132,6 +146,7 @@ footer {
   }
 }
 
+/* Desktop Breakpoint */
 
 @media (min-width: 900px) {
 
