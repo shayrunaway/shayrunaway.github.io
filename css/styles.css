@@ -162,16 +162,10 @@ footer {
 
   .projects-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
   }
 
   .projects-grid a {
-    padding: 2rem;
     font-size: 1.05rem;
-  }
-
-  .projects-grid a h3 {
-    font-size: 1.3rem;
   }
 
 }
