@@ -1,0 +1,42 @@
+/* Shay Hart; September 7th, 2025; style.css */
+
+nav {
+    background-color: #ffb81c;
+    padding: 10px;
+    text-align: right;
+}
+/*  background-color sets the background color to yellow
+    padding adds 10 pixels surrounding the navigation area
+    text-align anchors the navigation links to the right of the page
+*/
+
+body {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: #ffffff;
+}
+/*  background-color sets the background color to white
+	margin-top adds 50 pixels above the body
+	margin-left adds 100 pixels to the left of the body
+	margin-right adds 100 pixels to the right of the body
+	
+*/
+
+footer {
+	margin-top: 50px;
+	background-color: #ffb81c;
+	padding: 10px;
+	text-align: right;
+	margin-bottom: 50px;
+}
+/*  margin-top adds 50 pixels above the footer
+	background-color sets the background color to yellow
+    padding adds 10 pixels surrounding the footer of the page
+    text-align anchors the footer to the right of the page
+	margin-bottom adds 50 pixels below the footer
+*/
+
+
+
+

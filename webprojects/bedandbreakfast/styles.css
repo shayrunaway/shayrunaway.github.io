@@ -1,0 +1,206 @@
+/*All*/
+
+.combo-regular {
+  font-family: "Combo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Applies Combo cursive font; Set font weight; Ensures it is not italic or bold */
+
+body {
+    background-color: #30202e;
+    color: #fcf5e5;
+	font-family: Combo;
+    min-height: 97vh;
+    position: relative;
+    text-align: center;
+}
+
+/* Sets dark purple background; Sets off-white text; Use Combo font for body text; Ensures body fills most of viewport; Allows positioning of child elements; Centers text horizontally */
+
+#nav {
+    background-color: #30202e;
+    font-size: 20px;
+    padding: 10px 0px;
+    position: sticky;
+    text-align: right;
+    top: 0;
+    z-index: 10;
+}
+
+/* Sets dark purple background; Sets font size; Add 10px padding to top and bottom; Keeps nav bar fixed at top during scroll; Aligns nav links to the right of element; Sticks nav to the top of the viewport; Ensures nav stays on top of all other elements */
+
+#nav a {
+    color: #fcf5e5;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Sets off-white text; Adds 5px padding around links; Removes underline from links */
+
+#nav a:hover {
+    color: #b87b30;
+}
+
+/* Changes link text color on hover to gold */
+
+#foot {
+    bottom: 0;
+    font-size: 10px;
+    padding-right: 15px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+/* Positions footer at bottom of viewport; Sets font size to 10px; Adds 15px spacing to the right side; Ensures footer stays at the bottom of the page regardless of content length; Aligns footer to the right edge; Right aligns text */
+
+i {
+    font-size: 24px;
+    color: #b87b30;
+    margin-left: 10px;
+  }
+
+/* Enlarges icon size; Sets icon color to gold; Adds 10px between icon */
+
+/*Index*/ 
+
+#banner {
+    background: url(photos/banner.jpg) no-repeat;
+    background-size: cover;
+    border: 2px solid #b87b30;
+    position: relative;
+    width: 100%;
+    z-index: 8;
+}
+
+/* Sets banner image; Scales banner to fill area; Adds 2px solid gold border; Enables layering; Sets width to entirety of element; Ensures banner sits below header */
+
+#header {
+	color: #b87b30;
+    font-size: 36px;
+    padding: 10px;
+    text-align: left;
+    z-index: 9;
+}
+
+/* Sets font to gold; Sets font size to 36px; Adds 10px spacing around text; Aligns text to left; Ensures header appears on top of banner */
+
+#tagline {
+	font-style: italic;
+}
+
+/* Italicizes font for tagline */
+
+#about {
+    max-width: 1000px;
+    padding: 10px 25%;
+	text-align: right;
+}
+
+/* Limits width to 1000px; Adds 10px padding to top and bottom and adds 25% of the page width's padding to left and right; Aligns text to right */
+
+#gallery {
+    text-align: center;
+}
+
+/* Aligns text to center */
+
+.photo {
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+}
+
+/* Allows side-by-side layout; Adds 20px padding around phgotos; Aligns photos to top edge of element */
+
+.photo img {
+    border: 2px solid #b87b30;
+    border-radius: 10px;
+}
+
+/* Adds 2px solid gold border around images; Sets rounded corners for borders */
+
+/*Rooms*/
+
+#roomshead {
+    margin: 20px;
+    padding: 10px 0;
+	text-align: right;
+}
+
+/* Adds 20px margin around element; Adds 10px padding to top and bottom and 0px padding to left and right; Aligns text to right */
+
+#rooms {
+    border-spacing: 10px;
+    margin: 0 auto;
+}
+
+/* Adds 10px space between table cells; Centers the table horizontally */
+
+#rooms thead {
+	background-color: #b87b30;
+	color: #fcf5e5;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+/* Sets header background to gold; Sets header text to off-white ; Adds 3px spacing between header letters; Transforms header text to all caps */
+
+#rooms th {
+    text-align: center;
+    height: 50px;
+}
+
+/* Centers header text; Sets consistent row height */
+
+#rooms td {
+	border: 1px solid #b87b30;
+	height: 50px;
+    min-width: 300px;
+    padding: 10px;
+	text-align: left;
+}
+
+/* Adds border around cells; Matches header row height; Sets minimum column width to 300px; Adds spacing between table data; Aligns cell content to the left */
+
+.stuff {
+	max-width: 400px;
+}
+
+/* Sets max width of right column to 400px */
+
+/*Request*/
+
+#sectionhead {
+    margin: 20px;
+    max-width: 1420px;
+    padding: 10px 0;
+    text-align: right;
+}
+
+/* Adds 20px margin around heading; Sets max width of 1420px for element; Adds 10px padding to top and bottom; Aligns text to right */
+
+#form {
+    background-color: #30202e;
+    border-radius: 10px;
+    color: #b87b30;
+	margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Sets background color to dark purple; Sets rounded corners to borders; Sets text color to gold; Centers form horizontally; Sets max width of 1200px */
+
+form input, form select, form textarea {
+    margin: 10px 20px;
+}
+
+/* Adds 10px spacing to top and bottom and 20px spacing to left and right */
+
+button {
+    margin: 20px;
+}
+
+/* Add 20px margin to the "Book" button */
+	

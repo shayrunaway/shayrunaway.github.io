@@ -1,0 +1,116 @@
+/* Shay Hart; Styles.css; September 21st, 2025 */
+
+.style-script-regular {
+  font-family: "Style Script", cursive; /* Sets the font to "Style Script" with cursive in case Google Font fails */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Regular font style */
+}
+
+body {
+  background-color: #FCF5E5; /* Sets the background color of the page to an off-white */
+  font-family: "Style Script", cursive; /* Applies the "Style Script" font */
+}
+
+#page-wrapper {
+  display: flex; /* Sets flexible layout for child elements */
+  flex-direction: column; /* Stacks child elements vertically */
+  min-height: 100vh; /* Ensures the page contents take up all available space, pushing footer to the bottom regardless of content quantity */
+  border: 8px double #4a0d0a; /* Adds a dark red double border */
+  margin-bottom: 5px; /* Adds space below the border for continuity around the page */
+}
+
+header {
+  display: flex; /* Sets flexible layout for child elements */
+  justify-content: space-between; /* Distributes child elements horizontally across header with space between */
+  align-items: center; /* Vertically centers child elements */
+  padding-left: 20px; /* Adds space to left inside the header */
+  padding-right: 20px; /* Adds space to right inside the header */
+  background-color: #4a0d0a; /* Sets header background to dark red */
+  color: #FCF5E5; /* Sets text color to off-white */
+}
+
+#shop-name {
+  font-size: 30px; /* Sets font size to 30 */
+}
+
+#tagline {
+  font-size: 24px; /* Sets font size to 24 */
+  font-style: italic; /* Makes the text italic */
+}
+
+#navigation a {
+  margin-left: 10px; /* Adds space to left of links */
+  color: #FCF5E5; /* Sets link text color to off-white */
+  font-size: 30px; /* Sets font size to 30 */
+  font-weight: bold; /* Makes the text bold */
+  text-align: right; /* Aligns text to the right */
+  text-decoration: none; /* Removes underline from links */
+}
+
+a:hover {
+  color: #E2A61B; /* Changes link color to gold when hovered */
+}
+
+main {
+  padding: 20px; /* Adds space inside the main content area */
+  flex: 1; /* Allows main to grow and fill available space in Flexbox layout */
+}
+
+#page-header {
+  margin-left: 20px; /* Adds space to left of header */
+  color: #4a0d0a; /* Sets text color to dark red */
+  font-size: 28px; /* Sets font size to 28 */
+}
+
+#description {
+    max-width: 835px; /* Sets maximum width of description to 835px */
+    margin: 20px auto; /* Adds 20px space above and below, and centers description horizontally */
+    font-size: 20px; /* Sets font size to 20 */
+}
+
+#description-photo {
+    float: left; /* Floats image to the left allowing text to wrap around it */
+    margin-right: 20px; /* Adds space to the right of the image to separate it from text */
+    height: 400px; /* Sets image height to 400px */
+    border: 2px solid #000000; /* Adds solid black 2px border around image */
+    padding: 5px; /* Adds 5px space between image and border */
+}
+
+.books {
+    display: grid; /* Uses grid layout to arrange child elements */
+    grid-template-columns: 1fr 1fr; /* Creates two columns */
+    gap: 20px; /* Sets 20px gap between rows */
+    column-gap: 40px; /* Sets 40px gap between columns*/
+    padding-left: 20px; /* Adds 20px space on left of section */
+    padding-right: 20px; /* Adds 20px space on right of section */
+    padding-top: 20px; /* Adds 20px space on top of section */
+    margin: 0 auto; /* Centers section horizontally */
+}
+
+.books-grid {
+    border: 4px double #4a0d0a; /* Adds 4px double-lined dark red border */
+    padding: 5px 20px 20px 20px; /* Adds padding to top, right, bottom, and left*/
+}
+
+.book-photos {
+    float: left; /* Positions photo to the left allowing text to wrap around it */
+    margin-right: 20px; /* Adds 20px space to the right of the photo */
+    width: 200px; /* Sets the width of photo to 200px */
+    border: 2px solid #000000; /* Adds 2px solid black border around photo */
+    padding: 5px; /* Adds 5px space between border */
+}
+
+.books::after {
+    clear: both; /* Clears floated elements resolving layout issues */
+}
+
+footer {
+    display: flex; /* Enables flexible layout for child elements */
+    justify-content: space-between; /* Distributes child elements horizontally across header with space between */
+    align-items: center; /* Vertically centers child elements */
+    padding: 10px 20px;; /* Adds 10px space to top and bottom, and 20px space to left and right */
+    background-color: #4a0d0a; /* Sets footer background color to dark red */
+    color: #FCF5E5; /* Sets text color to off-white */
+    text-align: right; /* Aligns text to right */
+    font-size: 10px; /* Sets font size to 10 */
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <!-- Shay Hart; October 5th, 2025 -->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>The Leaky Cauldron</title>
+    <link rel="icon" href="photos/logo.png" type="image/png">
+
+</head>
+
+<body>
+
+    <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="request.html">Book</a>
+    </nav>
+
+    <header id="banner">
+        <h1 id="header">The Leaky Cauldron</h1>
+    </header>
+
+    <main>
+
+		<h2 id="sectionhead">Book A Stay</h2>
+	
+		<div id="table">
+		
+			<form id="form" action="thankyou.html" method="get">
+			
+				<fieldset>
+				
+					<legend>Guest Information</legend>
+					
+					<label for="first">First Name:</label>
+					<input type="text" id="first" name="first" required>
+					
+					<label for="last">Last Name:</label>
+					<input type="text" id="last" name="last" required>
+					
+					<label for="phone">Phone:</label>
+					<input type="text" id="phone" name="phone" required>
+					
+					<label for="email">Email:</label>
+					<input type="text" id="email" name="email" required>
+				
+				</fieldset>
+				
+				<fieldset>
+				
+					<legend>Contact Preference</legend>
+
+					<label for="contact">Best way to reach you:</label>
+					
+					<select id="contact" name="contact">
+						<option value="phone">Phone</option>
+						<option value="email">Email</option>
+						<option value="owl">Owl Post</option>
+					</select>
+					
+				</fieldset>
+				
+				<fieldset>
+				
+					<legend>Room Designation</legend>
+
+					<label><input type="radio" name="room" value="wizard">Wizard's Room</label>
+					<label><input type="radio" name="room" value="witch">Witch's Room</label>
+					<label><input type="radio" name="room" value="warlock">Warlock's Room</label>
+					<label><input type="radio" name="room" value="troll">Troll's Room</label>
+					
+				 </fieldset>
+				
+				<fieldset>
+				
+					<legend>Stuff and Things</legend>
+
+					<label><input type="checkbox" name="stuff" value="meal"> Complimentary soup</label>
+					<label><input type="checkbox" name="stuff" value="fire"> Firewhisky</label>
+					<label><input type="checkbox" name="stuff" value="butter">Butterbeer</label>
+					<label><input type="checkbox" name="stuff" value="hair">Sleekeazy's HP</label>
+					
+				 </fieldset>
+
+				<fieldset>
+				
+					<legend>Preferred Stay</legend>
+
+					<label><input type="radio" name="length" value="one">One night</label>
+					<label><input type="radio" name="length" value="week">One week</label>
+					
+				 </fieldset>
+
+				<button type="submit">Book</button>
+
+			</form>
+
+		</div>
+
+    </main>
+
+    <footer id="foot">
+        <i class="fa-solid fa-wand-sparkles"></i>
+        <p>&copy; 1500 | The Leaky Cauldron | Diagon Alley, London</p>
+    </footer>
+
+</body>
+
+</html>

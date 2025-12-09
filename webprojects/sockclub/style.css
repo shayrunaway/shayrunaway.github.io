@@ -1,0 +1,69 @@
+/*Shay Hart; September 29th, 2025*/
+
+
+body {
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  position: relative;
+  margin: 20px 0;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: orange;
+}
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: white;
+  color: orange;
+  padding: 2px 20px;
+  border: 1px solid black;
+}
+
+#heading {
+  color: orange;
+}
+
+.heading2 {
+  padding-left: 20px;
+  color: orange;
+}
+
+#heading3 {
+  color: orange;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: orange;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.sticky-heading {
+  position: sticky;
+  top: 0;
+  padding-left: 20px;
+  background: orange;
+  color: white;
+  border: 1px solid black;
+}
+
+
+.float-left {
+  float: left; 
+  margin: 0 10px 10px 0;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 10px 10px;
+}
